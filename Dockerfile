@@ -1,5 +1,5 @@
 # ベースイメージとして Python を使用
-FROM python:3.9
+FROM python:3.13
 
 # cloc を apt 経由でインストール
 RUN apt-get update && \
